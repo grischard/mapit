@@ -4,4 +4,5 @@ if settings.MAPIT_COUNTRY == 'GB':
     from mapit.countries.gb import *
 elif settings.MAPIT_COUNTRY == 'NO':
     from mapit.countries.no import *
-
+elif settings.MAPIT_COUNTRY == 'LU':
+    from mapit.countries.lu import *
